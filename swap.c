@@ -10,6 +10,6 @@ void main(){
 	a=b;
 	b=t;
 	printf("no.1 is: %d",a);
-	printf("no.2 is: %d",b);
+	printf("\nno.2 is: %d",b);
 
 }
