@@ -1,4 +1,4 @@
-//Print sum of series 1 – 2 + 3 – 4 + 5 – 6 + 7 … n.
+//Print sum of series 1 â€“ 2 + 3 â€“ 4 + 5 â€“ 6 + 7 â€¦ n.
 #include<stdio.h>
 void main(){
 	int a=1,n,sum=0;
