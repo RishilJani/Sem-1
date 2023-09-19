@@ -1,7 +1,6 @@
-/*Three sides of a triangle are entered through the keyboard, WAP to check whether the triangle is isosceles(samdvibaju),
-equilateral(sambhuj), scalene(every side and every angle is defferent) or right angled(katkon) triangle.*/
+/*Three sides of a triangle are entered through the keyboard, WAP to check whether the triangle is isosceles,
+equilateral, scalene or right angled triangle.*/
 #include<stdio.h>
-#include<math.h>
 void main(){
 	int a,b,c;
 	printf("Enter three sides of triangle : ");
