@@ -1,0 +1,40 @@
+#include<stdio.h>
+void main(){
+//12A1-a
+	int i,j;
+	for(i=1;i<=5;i++){
+		for(j=1;j<=i;j++){
+			printf("*");
+		}
+		printf("\n");
+	}	
+//12A1-b
+	int a=1;
+	for(i=1;i<=5;i++){
+		for(j=1;j<=i;j++){
+			printf("%d",a);
+			a++;
+		}
+		a=1;
+		printf("\n");
+	}
+//12A1-c
+	a=5;
+	for(i=1;i<=5;i++){
+		for(j=1;j<=i;j++){
+			printf("%d",a);
+			a--;
+		}
+		a=5;
+		printf("\n");
+	}
+//12A1-d
+	a=1;
+	for(i=1;i<=5;i++){
+		for(j=1;j<=i;j++){
+			printf("%d",a);
+		}
+		a++;
+		printf("\n");
+	}
+}	
